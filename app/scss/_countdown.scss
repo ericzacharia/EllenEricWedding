@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap');
+
+#wedding_invitation {
+    color: $white;
+    font-size: 4.0rem;
+    font-weight: 900;
+    padding: 0;
+    margin: 0;
+
+    .countdown_content {
+        font-family: 'Julius Sans One',
+            sans-serif;
+        font-size: 50%;
+
+    }
+    big {
+        font-size: 125%;
+    }
+    p{
+        font-size: 75%;
+    }
+
+
+    @media screen and (max-width: 1280px) {
+        font-size: 3.7rem;
+    }
+
+    @media screen and (max-width: 1124px) {
+        font-size: 3.2rem;
+    }
+
+    @media screen and (max-width: 1024px) {
+        font-size: 2.9rem;
+    }
+
+    @media screen and (max-width: 900px) {
+        font-size: 2.6rem;
+    }
+
+    @media screen and (max-width: 850px) {
+        font-size: 2.3rem;
+    }
+
+    @media screen and (max-width: 768px) {
+        font-size: 1.79rem;
+    }
+
+    @media screen and (max-width: 600px) {
+        font-size: 1.4rem;
+    }
+
+    @media screen and (max-width: 510) {
+        font-size: 1.1rem;
+    }
+
+    @media screen and (max-width: 375px) {
+        font-size: 1rem;
+    }
+}
+
+/*# sourceMappingURL=main.css.map */
