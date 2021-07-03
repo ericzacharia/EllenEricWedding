@@ -275,6 +275,7 @@ div .header__links a {
   position: relative;
   padding-top: 1.0625rem;
   padding-bottom: 1.0625rem;
+  color: white;
 }
 
 .header__logo img {
@@ -313,11 +314,6 @@ div .header__links a {
   color: #1a6b0a;
   text-align: center;
   text-decoration: none;
-}
-
-.header__menu__links {
-  display: flex;
-  justify-content: space-evenly;
 }
 
 .header__menu__links a {
@@ -929,18 +925,6 @@ div .header__links a {
 @media screen and (max-width: 600px) {
   #wedding_invitation {
     font-size: 1.4rem;
-  }
-}
-
-@media screen and (max-width: 510) {
-  #wedding_invitation {
-    font-size: 1.1rem;
-  }
-}
-
-@media screen and (max-width: 375px) {
-  #wedding_invitation {
-    font-size: 1rem;
   }
 }
 .header a {
