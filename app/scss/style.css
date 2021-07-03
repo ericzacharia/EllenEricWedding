@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap");
 .has-fade {
   visibility: hidden;
 }
@@ -358,13 +359,42 @@ div .header__links a {
 .slide-content {
   margin: 0;
   padding: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  font-family: 'Great Vibes', cursive;
-  font-family: 'Parisienne', cursive;
-  font-family: 'Tangerine', cursive;
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
+  color: white;
+}
+
+#slider .hero_text,
+#slider #wedding_invitation,
+#slider h1,
+.hero .hero_text,
+.hero #wedding_invitation,
+.hero h1,
+.slide-content .hero_text,
+.slide-content #wedding_invitation,
+.slide-content h1 {
+  font-family: 'Tangerine', cursive;
+}
+
+#slider p,
+#slider .form-label,
+#slider .form-control,
+#slider .radio,
+#slider .btn,
+.hero p,
+.hero .form-label,
+.hero .form-control,
+.hero .radio,
+.hero .btn,
+.slide-content p,
+.slide-content .form-label,
+.slide-content .form-control,
+.slide-content .radio,
+.slide-content .btn {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 90%;
+  color: white;
 }
 
 .hero {
@@ -941,7 +971,6 @@ div .header__links a {
   justify-content: start;
   align-items: start;
   height: 100vh;
-  font-family: "Raleway", sans-serif;
 }
 
 .rsvp_form .container {
