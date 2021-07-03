@@ -235,6 +235,14 @@ button:hover::before, .button:hover::before {
   }
 }
 
+:any-link {
+  color: white;
+}
+
+div .header__links a {
+  padding: 0 20px 0 0;
+}
+
 .header {
   position: relative;
   z-index: 1;
@@ -306,9 +314,14 @@ button:hover::before, .button:hover::before {
   text-decoration: none;
 }
 
+.header__menu__links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .header__menu__links a {
   position: relative;
-  font-size: 1.5rem;
+  font-size: 2.5rem;
   font-weight: 600;
   text-decoration: none;
   color: white;
@@ -398,6 +411,9 @@ button:hover::before, .button:hover::before {
   justify-self: center;
   width: 100%;
   font-family: 'Julius Sans One', sans-serif;
+  color: white;
+  text-decoration: none;
+  font-size: 1.5rem;
 }
 
 #wedding_invitation {

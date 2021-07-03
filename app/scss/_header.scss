@@ -1,10 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap');
 
+:any-link {
+  color: white;
+}
+
+div {
+  .header__links {
+
+    a {
+      padding: 0 20px 0 0;
+    }
+  }
+}
 
 .header {
   position: relative;
   z-index: 1;
-  
+
   // Hamburger Open Styles
   &.open {
 
@@ -90,9 +102,13 @@
 
     &__links {
 
+      display: flex;
+      justify-content: space-evenly;
+
+
       a {
         position: relative;
-        font-size: 1.5rem;
+        font-size: 2.5rem;
         font-weight: 600;
         text-decoration: none;
         color: $white;
