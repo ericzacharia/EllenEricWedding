@@ -943,6 +943,10 @@ div .header__links a {
     font-size: 1rem;
   }
 }
+.header a {
+  text-decoration: none;
+}
+
 .rsvp_body {
   margin: 20px;
   padding: 20px;
