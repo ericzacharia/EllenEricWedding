@@ -4,16 +4,8 @@
   color: white;
 }
 
-div {
-  .header__links {
-    a {
-      padding: 0 20px 0 0;
-    }
-  }
-}
-
 .header {
-  position: relative;
+  // position: relative;
   z-index: 1;
 
   // Hamburger Open Styles
@@ -45,11 +37,20 @@ div {
   }
 
   nav {
-    position: relative;
-    // background-color: $white;
     padding-top: 1.0625rem;
     padding-bottom: 1.0625rem;
     color: $white;
+    left: 50%;
+
+      .header__links {
+          width: 100%;
+
+        a {
+          padding: 0 5% 0 0;
+          // margin: 0;
+          font-size: 100%;
+        }
+      }
   }
 
   &__logo {
