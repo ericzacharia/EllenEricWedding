@@ -47,6 +47,7 @@
 html {
   font-size: 100%;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -62,7 +63,7 @@ body {
   color: #9698a6;
   line-height: 1.3;
   overflow-x: hidden;
-  background-color: #002c00;
+  background-color: #004600;
 }
 
 @media (min-width: 64em) {
@@ -409,15 +410,23 @@ button:hover::before, .button:hover::before {
 }
 
 .slide1 {
-  background-image: url("../../images/hawksbillcraig2.jpg");
+  background-image: url("../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-107-cropped.jpg");
 }
 
 .slide2 {
-  background-image: url("../../images/laTerraza.jpg");
+  background-image: url("../../images/engagement_session/Gallery Preview/ellen-eric-engagement-teasers-6.jpg");
 }
 
 .slide3 {
-  background-image: url("../../images/rollerhockey.JPG");
+  background-image: url("../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-11-cropped.jpg");
+}
+
+.slide4 {
+  background-image: url("../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-11-cropped.jpg");
+}
+
+.slide5 {
+  background-image: url("../../images/mapofevents.png");
 }
 
 .slide-content {
