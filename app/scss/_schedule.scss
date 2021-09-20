@@ -43,6 +43,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+
+    @media screen and (max-width: 600px) {
+      height: 25%;
+    }
   }
 
   &__text {

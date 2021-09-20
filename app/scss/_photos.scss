@@ -1,0 +1,23 @@
+.gallery {
+    line-height: 0;
+    -webkit-column-count: 5;
+    -webkit-column-gap: 0px;
+    -moz-column-count: 5;
+    -moz-column-gap: 0px;
+    column-count: 5;
+    column-gap: 0px;
+
+    &__solo {
+        margin: 2px;
+        overflow: hidden;
+    }
+
+    &__image {
+        width: 100% !important;
+        height: auto !important;
+        transition: .3s;
+        &:hover {
+            transform: scale(1.1);
+        }
+    }
+}

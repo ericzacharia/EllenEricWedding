@@ -45,5 +45,7 @@
         document.querySelector('.countdown1').innerText = time;
         document.querySelector('.countdown2').innerText = time;
         document.querySelector('.countdown3').innerText = time;
+        document.querySelector('.countdown4').innerText = time;
+        document.querySelector('.countdown5').innerText = time;
       }
     }
