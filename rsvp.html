@@ -50,7 +50,7 @@
     <b>
       <h1>RSVP</h1>
       <div class="rsvp_form">
-        <form class="contact-form" action=<?php include('contactform.php'); ?> method="post">
+        <!-- <form class="contact-form" action=<'contactform.php'); ?> method="post">
           <div class="form-group">
             <label for="name" class="form-label">Your Name</label>
             <input type="text" class="form-control" id="name" name="name" placeholder="Glacier Zacharia" tabindex="1"
@@ -79,6 +79,28 @@
           <div>
             <button type="submit" name="submit" class="btn">Submit RSVP!</button>
           </div>
+        </form> -->
+        <!-- modify this form HTML and place wherever you want your form -->
+        <form action="https://formspree.io/f/myyloogq" method="POST">
+          
+          <label>
+            Full Name:
+            <input type="text" name="_replyto" placeholder="Glacier Zacharia">
+          </label>
+          <label>
+            Your E-mail:
+            <input type="email" name="_replyto" placeholder="reallygoodboy@gmail.com">
+          </label>
+          <label>
+            Subject (optional):
+            <input type="text" name="_replyto" placeholder="I heard you're getting married...">
+          </label>
+          <label>
+            Message (optional):
+            <textarea name="message" placeholder="I'd love to come celebrate!"></textarea>
+          </label>
+          <!-- your other form fields go here -->
+          <button type="submit">Send</button>
         </form>
       </div>
     </b>
