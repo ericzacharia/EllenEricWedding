@@ -1090,6 +1090,8 @@ h3 {
 }
 
 .map_border {
-  margin-left: 100px;
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 /*# sourceMappingURL=style.css.map */
