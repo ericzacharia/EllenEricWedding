@@ -1,44 +1,16 @@
-<?php include('form_process.php'); ?>
-<link rel="stylesheet" href="form.css" type="text/css">
-<div class="container">  
-  <form id="contact" action="<?= htmlspecialchars($_SERVER["PHP_SELF"]) ?>" method="post">
-    <h3>Contact</h3>
-    <h4>Contact us today, and get reply with in 24 hours!</h4>
-    <fieldset>
-      <input placeholder="Your name" type="text" name="name" value="<?= $name ?>" tabindex="1" autofocus>
-      <span class="error"><?= $name_error ?></span>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Email Address" type="text" name="email" value="<?= $email ?>" tabindex="2">
-      <span class="error"><?= $email_error ?></span>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Phone Number" type="text" name="phone" value="<?= $phone ?>" tabindex="3">
-      <span class="error"><?= $phone_error ?></span>
-    </fieldset>
-    <fieldset>
-      <input placeholder="Your Web Site starts with http://" type="text" name="url" value="<?= $url ?>" tabindex="4" >
-      <span class="error"><?= $url_error ?></span>
-    </fieldset>
-    <fieldset>
-      <textarea value="<?= $message ?>" name="message" tabindex="5">
-      </textarea>
-    </fieldset>
-    <fieldset>
-      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
-    </fieldset>
-    <div class="success"><?= $success ?></div>
-  </form>
-</div>
-
-<!-- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
   <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./app/scss/style.css">
+  <!-- Bootstrap CSS -->
+  <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous"> -->
+  <!-- <link rel="icon" type="image/png" sizes="56x56" href="img/glaciericon.jpg"> -->
   <link rel="icon" type="image/png" sizes="56x56" href="img/DSIconRed.png">
   <title>She said yes lol</title>
   <script type="text/javascript" src="jquery-3.3.1.js"></script>
@@ -76,6 +48,7 @@
   <div class="hero">
     <div id="arrow-left" class="arrow"></div>
     <div id="slider">
+      <!-- SLIDE 1-->
       <div class="slide slide1">
         <div class="slide-content">
           <div class="hero_text">
@@ -99,6 +72,7 @@
           </div>
         </div>
       </div>
+      <!-- SLIDE 2-->
       <div class="slide slide2">
         <div class="slide-content">
           <div class="hero_text">
@@ -122,6 +96,7 @@
           </div>
         </div>
       </div>
+      <!-- SLIDE 3-->
       <div class="slide slide3">
         <div class="slide-content">
           <div class="hero_text">
@@ -145,6 +120,7 @@
           </div>
         </div>
       </div>
+      <!-- SLIDE 4-->
       <div class="slide slide4">
         <div class="slide-content">
           <div class="hero_text">
@@ -168,6 +144,7 @@
           </div>
         </div>
       </div>
+      <!-- SLIDE 5-->
       <div class="slide slide5">
         <div class="slide-content">
           <div class="hero_text">
@@ -191,6 +168,7 @@
           </div>
         </div>
       </div>
+      <!-- END SLIDE -->
 
     </div>
     <div id="arrow-right" class="arrow"></div>
@@ -377,7 +355,11 @@
   <script src="/app/js/script.js"></script>
   <script src="/app/js/countdown.js"></script>
   <script src="/app/js/slider.js"></script>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous">
+  </script> -->
 
 </body>
 
-</html> -->
+</html>
