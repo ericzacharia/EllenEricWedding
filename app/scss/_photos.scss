@@ -10,12 +10,14 @@
     &__solo {
         margin: 2px;
         overflow: hidden;
+
     }
 
     &__image {
         width: 100% !important;
         height: auto !important;
         transition: .3s;
+
         &:hover {
             transform: scale(1.1);
         }
