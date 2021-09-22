@@ -49,53 +49,31 @@
   <div class="rsvp_body">
     <b>
       <h1>RSVP</h1>
+      <p>Feel free to resubmit this form to change your response!</p>
       <div class="rsvp_form">
-        <!-- <form class="contact-form" action=<'contactform.php'); ?> method="post">
-          <div class="form-group">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Glacier Zacharia" tabindex="1"
-              required>
-          </div>
-          <div class="form-group">
-            <label for="email" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="reallygoodboy@email.com"
-              tabindex="2" required>
-          </div>
-          <div class="form-group">
-            <label for="subject" class="form-label">Subject (optional)</label>
-            <input type="text" class="form-control" id="subject" name="subject"
-              placeholder="I heard you're getting married..." tabindex="3">
-          </div>
-          <div class="form-group">
-            <label for="message" class="form-label">Message (optional)</label>
-            <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="I'd love to come celebrate..."
-              tabindex="4"></textarea>
-          </div>
+        <form action="https://formspree.io/f/myyloogq" method="POST">
+          <label>
+            Full Name:
+          <br>
+            <input type="text" name="name" placeholder="Glacier Zacharia" required>
+          </label>
+          <br>
+          <label>
+            E-mail:
+          <br>
+            <input type="email" name="email" placeholder="reallygoodboy@gmail.com" required>
+          </label>
+          <br>
+          <label>
+            Message (optional):
+            <br>
+            <textarea name="message" placeholder="I heard you're getting married..." rows="10" cols="30"></textarea>
+          </label>
           <br>
           <label class="radio" for="guest">Are you bringing a guest?</label>
           <input class="radio" type="radio" name="plus-1" value="no" checked>No
           <input class="radio" type="radio" name="plus-1" value="yes">Yes
-
-          <div>
-            <button type="submit" name="submit" class="btn">Submit RSVP!</button>
-          </div>
-        </form> -->
-        <!-- modify this form HTML and place wherever you want your form -->
-        <form action="https://formspree.io/f/myyloogq" method="POST">
-          
-          <label>
-            Full Name:
-            <input type="text" name="name" placeholder="Glacier Zacharia">
-          </label>
-          <label>
-            Your E-mail:
-            <input type="email" name="email" placeholder="reallygoodboy@gmail.com">
-          </label>
-          <label>
-            Message (optional):
-            <textarea name="message" placeholder="I heard you're getting married..." rows="10" cols="30"></textarea>
-          </label>
-          <!-- your other form fields go here -->
+          <br>
           <button type="submit">Send</button>
         </form>
       </div>
