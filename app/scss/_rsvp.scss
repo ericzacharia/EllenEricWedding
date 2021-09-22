@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap');
 
-.slide {
-  text-align: left;
-}
-
 .header {
   background-color: rgb(0, 44, 0);
 
@@ -12,8 +8,6 @@
   }
 }
 
-.hero_text,
-#wedding_invitation,
 h1 {
   font-family: 'Tangerine',
     cursive;
@@ -22,55 +16,30 @@ h1 {
 
 .rsvp_body {
   font-family: 'Times New Roman',
-  Times,
-  serif;
+    Times,
+    serif;
   color: rgb(0, 116, 0);
   max-width: 325px;
+  margin: 20px;
   padding: 20px;
+  border: rgb(0, 116, 0) 2px solid;
+  background-color: rgb(213, 231, 217);
 
   h1 {
     color: rgb(0, 44, 0);
     font-size: 4rem;
 
   }
-
-  p {
-    color: rgb(0, 44, 0);
-    font-size: 3rem;
-  }
-}
-
-.form-label {
-  font-size: 1.5rem;
-  transition: all .3s;
-  transform: translateX(-50px);
-
 }
 
 .rsvp_form {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  height: 100vh;
-  
-
-  .container {
-    width: 500px;
-    box-shadow: 0 15px 35px rgba(50, 50, 93, .1), 0 5px 15px rgba(0, 0, 0, .07);
-    padding: 2em;
-    background-color: #fff;
-  }
-
   .form-group {
     margin-bottom: 1.5em;
     transition: all .3s;
   }
 
   .form-label {
-    font-size: 2.5rem;
-    color: $white;
-    // display: block;
-    // opacity: 0;
+    color: rgb(0, 109, 0);
     transition: all .3s;
     transform: translateX(-50px);
   }
@@ -81,14 +50,11 @@ h1 {
     border-color: #ccc;
     border-style: none none solid none;
     width: 100%;
-    font-size: 2rem;
     transition: all .6s;
-
   }
 
   .form-control::placeholder {
     color: #aaa;
-    font-size: 1.5rem;
   }
 
   .form-control:focus {
@@ -101,7 +67,6 @@ h1 {
     transform: scale(1.1, 1.1);
   }
 
-
   .form-control:invalid:focus {
     border-color: red;
   }
@@ -111,13 +76,11 @@ h1 {
   }
 
   .btn {
-    background: 0 0 #fff;
+    background: 0 0 rgb(173, 214, 182);
     border: 1px solid #aaa;
     border-radius: 3px;
     color: var(--font-color);
-    font-size: 3rem;
     padding: 10 50px;
-    text-transform: uppercase;
   }
 
   .btn:hover {
@@ -128,7 +91,6 @@ h1 {
   textarea {
     resize: none;
   }
-
 
   .focused>.form-label {
     opacity: 1;

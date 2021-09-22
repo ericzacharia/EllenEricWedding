@@ -28,7 +28,7 @@
         <a href="./index.html">Home</a>
         <a href="./rsvp.html">RSVP</a>
         <a href="./photos.html">Photos</a>
-        <a href="./index.html#schedule">Schedule</a>
+        <a href="./index.html#vendor">vendor</a>
         <a href="./index.html#hotel">Hotel</a>
         <a href="./map.html">Map</a>
         <a href="./vendors.html">Vendors</a>
@@ -47,43 +47,92 @@
     </div>
   </header>
 
-  <div class="rsvp_body">
-    <b>
-      <h1>RSVP</h1>
-      <div class="rsvp_form">
-        <form class="contact-form" action="contactform.php" method="post">
-          <div class="form-group">
-            <label for="name" class="form-label">Your Name</label>
-            <input type="text" class="form-control" id="name" name="name" placeholder="Glacier Zacharia" tabindex="1"
-              required>
-          </div>
-          <div class="form-group">
-            <label for="email" class="form-label">Your Email</label>
-            <input type="email" class="form-control" id="email" name="email" placeholder="reallygoodboy@email.com"
-              tabindex="2" required>
-          </div>
-          <div class="form-group">
-            <label for="subject" class="form-label">Subject (optional)</label>
-            <input type="text" class="form-control" id="subject" name="subject"
-              placeholder="I heard you're getting married..." tabindex="3">
-          </div>
-          <div class="form-group">
-            <label for="message" class="form-label">Message (optional)</label>
-            <textarea class="form-control" rows="5" cols="50" id="message" name="message" placeholder="I'd love to come celebrate..."
-              tabindex="4"></textarea>
-          </div>
-          <br>
-          <label class="radio" for="guest">Are you bringing a guest?</label>
-          <input class="radio" type="radio" name="plus-1" value="no" checked>No
-          <input class="radio" type="radio" name="plus-1" value="yes">Yes
+<section class="vendors">
 
-          <div>
-            <button type="submit" name="submit" class="btn">Submit RSVP!</button>
+    <div class="vendor__content container container--pall">
+
+      <h2>Vendors</h2>
+      <p> Click a vendor link to be redirected to their website!</p>
+
+      <div class="vendor__grid">
+
+        <a href="https://kayxbee.com/" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/kayxbee.png')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">Photography</div>
+            <div class="vendor__description">Kay x Bee
+            </div>
           </div>
-        </form>
+        </a>
+        <a href="https://www.justincasanova.com/" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/justincasanova.png')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">Videography</div>
+            <div class="vendor__description">Justin Casanova
+            </div>
+          </div>
+        </a>
+        <a href="https://anotherdimensiondj.com/" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/anotherdimension.png')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">DJ & MC</div>
+            <div class="vendor__description">Another Dimension Entertainment
+            </div>
+          </div>
+        </a>
+        <a href="https://www.wichitacoordination.com/" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/wichitacoordination.png')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">Day of Coordinators</div>
+            <div class="vendor__description">Wichita Coordination LLC
+            </div>
+          </div>
+        </a>
+        <a href="https://www.thehudsonict.com/" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/thehudson.jpg')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">Reception Venue</div>
+            <div class="vendor__description">The Hudson
+            </div>
+          </div>
+        </a>
+        <a href="https://lelucieventlighting.com/" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/leluci.png')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">Lighting and Decor</div>
+            <div class="vendor__description">Le Luci Event Lighting and Rentals
+            </div>
+          </div>
+        </a>
+        <a href="https://blessedsacramentwichita.com/" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/blessedsacrament.jpg')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">Ceremony Venue</div>
+            <div class="vendor__description">Blessed Sacrament Church
+            </div>
+          </div>
+        </a>
+        <a href="https://www.bellalunacafe.com/?gclid=CjwKCAjw4qCKBhAVEiwAkTYsPJJ4Ht7QVWOS1f0beTX18f_ytypEAPz-kQsWyln2lGwhvvpqX9PxiBoCQNUQAvD_BwE" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/bellaluna.png')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">Catering</div>
+            <div class="vendor__description">Bella Luna Cafe
+            </div>
+          </div>
+        </a>
+        <a href="https://www.hyatt.com/en-US/group-booking/WICRW/G-HEZA" class="vendor__item">
+          <div class="vendor__image" style="background-image: url('./images/hyattregency2.jpg')"></div>
+          <div class="vendor__text">
+            <div class="vendor__title">Hotel</div>
+            <div class="vendor__description">Hyatt Regency Wichita
+            </div>
+          </div>
+        </a>
+       
+
       </div>
-    </b>
-  </div>
+    </div>
+  </section>
 
 
 

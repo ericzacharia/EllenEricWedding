@@ -243,7 +243,7 @@ button:hover::before, .button:hover::before {
 
 .header {
   position: relative;
-  z-index: 1;
+  z-index: 2;
 }
 
 .header.open .header__toggle > span:first-child {
@@ -394,6 +394,13 @@ button:hover::before, .button:hover::before {
   font-family: 'Times New Roman', Times, serif;
   font-size: 120%;
   color: #007400;
+}
+
+#slider .countdown_content p,
+.hero .countdown_content p,
+.slide-content .countdown_content p {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 #slider .btn,
@@ -869,10 +876,6 @@ button:hover::before, .button:hover::before {
     font-size: 1.4rem;
   }
 }
-.slide {
-  text-align: left;
-}
-
 .header {
   background-color: #002c00;
 }
@@ -881,8 +884,6 @@ button:hover::before, .button:hover::before {
   text-decoration: none;
 }
 
-.hero_text,
-#wedding_invitation,
 h1 {
   font-family: 'Tangerine', cursive;
 }
@@ -891,37 +892,15 @@ h1 {
   font-family: 'Times New Roman', Times, serif;
   color: #007400;
   max-width: 325px;
+  margin: 20px;
   padding: 20px;
+  border: #007400 2px solid;
+  background-color: #d5e7d9;
 }
 
 .rsvp_body h1 {
   color: #002c00;
   font-size: 4rem;
-}
-
-.rsvp_body p {
-  color: #002c00;
-  font-size: 3rem;
-}
-
-.form-label {
-  font-size: 1.5rem;
-  transition: all .3s;
-  transform: translateX(-50px);
-}
-
-.rsvp_form {
-  display: flex;
-  justify-content: start;
-  align-items: start;
-  height: 100vh;
-}
-
-.rsvp_form .container {
-  width: 500px;
-  box-shadow: 0 15px 35px rgba(50, 50, 93, 0.1), 0 5px 15px rgba(0, 0, 0, 0.07);
-  padding: 2em;
-  background-color: #fff;
 }
 
 .rsvp_form .form-group {
@@ -930,8 +909,7 @@ h1 {
 }
 
 .rsvp_form .form-label {
-  font-size: 2.5rem;
-  color: white;
+  color: #006d00;
   transition: all .3s;
   transform: translateX(-50px);
 }
@@ -942,13 +920,11 @@ h1 {
   border-color: #ccc;
   border-style: none none solid none;
   width: 100%;
-  font-size: 2rem;
   transition: all .6s;
 }
 
 .rsvp_form .form-control::placeholder {
   color: #aaa;
-  font-size: 1.5rem;
 }
 
 .rsvp_form .form-control:focus {
@@ -970,13 +946,11 @@ h1 {
 }
 
 .rsvp_form .btn {
-  background: 0 0 #fff;
+  background: 0 0 #add6b6;
   border: 1px solid #aaa;
   border-radius: 3px;
   color: var(--font-color);
-  font-size: 3rem;
   padding: 10 50px;
-  text-transform: uppercase;
 }
 
 .rsvp_form .btn:hover {
@@ -1020,5 +994,84 @@ h1 {
 
 .gallery__image:hover {
   transform: scale(1.1);
+}
+
+.vendors {
+  background-color: #fff5f5;
+}
+
+.vendors h2 {
+  color: #1a6b0a;
+}
+
+.vendors a {
+  text-decoration: none;
+}
+
+.vendor__grid {
+  display: grid;
+  grid-template-rows: 1fr;
+  gap: 1.875rem;
+}
+
+.vendor__item {
+  display: grid;
+  grid-template-columns: 30% auto;
+  grid-template-rows: 100%;
+  border-radius: 0.3125rem;
+  overflow: hidden;
+  background-color: white;
+  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+  transition: all 150ms ease-in-out;
+}
+
+.vendor__item:hover {
+  transform: scale(1.05);
+}
+
+.vendor__image {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  align-self: center;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+@media screen and (max-width: 600px) {
+  .vendor__image {
+    height: 25%;
+  }
+}
+
+.vendor__text {
+  padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+  color: #9698a6;
+}
+
+@media (min-width: 40em) {
+  .vendor__text {
+    padding: 1.875rem 1.5625rem;
+  }
+}
+
+.vendor__date {
+  font-size: 1.1rem;
+  color: #1a6b0a;
+  margin-bottom: 0.75rem;
+}
+
+.vendor__title {
+  font-size: 1.4rem;
+  line-height: 1.2;
+  color: #1a6b0a;
+  margin-bottom: 0.5rem;
+}
+
+.vendor__description {
+  font-size: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

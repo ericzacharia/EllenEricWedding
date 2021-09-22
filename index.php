@@ -26,19 +26,22 @@
         <span></span>
       </a>
       <div class="header__links hide-for-mobile">
-        <a href="./index.html">Home</a>
-        <a href="./rsvp.html">RSVP</a>
+        <a href="./index.php">Home</a>
+        <a href="./rsvp.php">RSVP</a>
         <a href="./photos.html">Photos</a>
         <a href="#schedule">Schedule</a>
         <a href="#hotel">Hotel</a>
         <a href="./map.html">Map</a>
+        <a href="./vendors.html">Vendors</a>
       </div>
     </nav>
     <div class="header__menu has-fade">
-      <a href="./index.html">Home</a>
-      <a href="./rsvp.html">RSVP</a>
+      <a href="./index.php">Home</a>
+      <a href="./rsvp.php">RSVP</a>
       <a href="./photos.html">Photos</a>
       <a href="./map.html">Map</a>
+      <a href="./vendors.html">Vendors</a>
+
     </div>
   </header>
 
@@ -289,7 +292,7 @@
             <div class="schedule__title">Nightlife in Downtown Wichita</div>
             <div class="schedule__date">Saturday, 10:30 pm+</div>
             <div class="schedule__description">Ask the bride and groom for suggestions, or CLICK HERE to be redirected
-              to Wichita's nightlife website. 
+              to Wichita's nightlife website.
               <br> <br>All guests are also welcome to hang out at the lobby bar at the Hyatt Regency!
               <b> <br><br>Downtown Wichita
                 <br>505 E Douglas Ave, Wichita, KS 67202

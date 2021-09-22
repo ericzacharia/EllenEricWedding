@@ -26,11 +26,18 @@
   .radio {
     font-family: 'Times New Roman', Times, serif;
     font-size: 120%;
-    color:rgb(0, 116, 0);
+    color: rgb(0, 116, 0);
+  }
+
+  .countdown_content p {
+    color: $white;
+    font-family: 'Julius Sans One',
+      sans-serif;
+
   }
 
   .btn {
-        font-size: 150%;
+    font-size: 150%;
     color: rgb(25, 73, 29);
   }
 }
@@ -45,11 +52,25 @@
   background-repeat: no-repeat;
 }
 
-.slide1 {  background-image: url('../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-107-cropped.jpg');}
-.slide2 {  background-image: url('../../images/engagement_session/Gallery Preview/ellen-eric-engagement-teasers-6.jpg');}
-.slide3 {  background-image: url('../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-50.jpg'); }
-.slide4 {  background-image: url('../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-59.jpg'); }
-.slide5 {  background-image: url('../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-119.jpg'); }
+.slide1 {
+  background-image: url('../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-107-cropped.jpg');
+}
+
+.slide2 {
+  background-image: url('../../images/engagement_session/Gallery Preview/ellen-eric-engagement-teasers-6.jpg');
+}
+
+.slide3 {
+  background-image: url('../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-50.jpg');
+}
+
+.slide4 {
+  background-image: url('../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-59.jpg');
+}
+
+.slide5 {
+  background-image: url('../../images/engagement_session/FULL GALLERY/ellen-eric-engagement-119.jpg');
+}
 
 .slide-content {
   display: grid;
@@ -69,7 +90,7 @@
   font-size: 1.0rem;
 }
 
-.rsvp_body{
+.rsvp_body {
   text-align: center;
   padding-left: 50px;
 
