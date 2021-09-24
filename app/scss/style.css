@@ -902,67 +902,34 @@ button:hover::before,
   margin-right: 30px;
 }
 
-.registry, #registry {
-  background-color: #c1dc8f !important;
-  text-align: left !important;
-  color: #1a6b0a !important;
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 30px;
+  bottom: 0;
+  background: rgba(255, 0, 0, 0.7);
+  /* use this so that the image doesn't go opaque too */
 }
 
-.registry__item, #registry__item {
-  display: grid !important;
-  grid-template-columns: 50% auto !important;
-  grid-template-rows: 100% !important;
-  border-radius: 0.3125rem !important;
-  overflow: hidden !important;
-  background-color: white !important;
-  box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15) !important;
-  transition: all 150ms ease-in-out !important;
-  padding: 5px !important;
-  border: #1a6b0a 1px solid !important;
+.overlay > img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* center the image in the overlay */
 }
 
-.registry__item:hover, #registry__item:hover {
-  transform: scale(1.05) !important;
-}
-
-.registry__image, #registry__image {
-  grid-column-start: 1 !important;
-  grid-column-end: 2 !important;
-  grid-row-start: 1 !important;
-  grid-row-end: 2 !important;
-  align-self: center !important;
-  height: 100% !important;
-  background-size: contain !important;
-  background-repeat: no-repeat !important;
-  background-position: center center !important;
-}
-
-@media screen and (max-width: 600px) {
-  .registry__image, #registry__image {
-    height: 25%;
-  }
-}
-
-.registry__text, #registry__text {
-  padding: 1.875rem 1.875rem 2.5rem 1.875rem;
-  color: #9698a6;
-}
-
-@media (min-width: 40em) {
-  .registry__text, #registry__text {
-    padding: 1.875rem 1.5625rem;
-  }
-}
-
-.registry__title, #registry__title {
-  font-size: 1.4rem;
-  line-height: 1.2;
-  color: #1a6b0a;
-  margin-bottom: 0.5rem;
-}
-
-.registry__description, #registry__description {
-  font-size: 1rem;
+.close {
+  border-radius: 5px;
+  color: #ffffff;
+  background-color: #000000;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  cursor: pointer;
 }
 
 .schedules {
