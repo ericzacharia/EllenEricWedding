@@ -777,7 +777,7 @@ button:hover::before, .button:hover::before {
 }
 
 .footer .container img {
-  height: 32px;
+  height: 60px;
   border: #27aa27 solid 2px;
 }
 
@@ -1076,7 +1076,7 @@ h1 {
   font-size: 1rem;
 }
 
-.map {
+#map {
   background-size: contain;
   width: auto;
   height: 300px;
@@ -1089,7 +1089,7 @@ h3 {
   font-family: 'Julius Sans One', sans-serif;
 }
 
-.map_border {
+#map_border {
   text-align: center;
   margin-left: 50%;
   transform: translateX(-50%);

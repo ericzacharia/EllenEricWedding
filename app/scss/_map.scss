@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap');
 
-.map {
+#map {
     background-size: contain;
     width: auto;
     height: 300px;
@@ -14,7 +14,7 @@ h3 {
         sans-serif;
 }
 
-.map_border {
+#map_border {
     text-align: center;
     margin-left: 50%;
     transform:translateX(-50%);
