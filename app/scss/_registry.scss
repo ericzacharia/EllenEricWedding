@@ -1,37 +1,37 @@
 
 
-.registry {
-  background-color: $sageGreen;
-  text-align: left;
-  color: $forestGreen;
+.registry, #registry {
+  background-color: $sageGreen !important;
+  text-align: left !important;
+  color: $forestGreen !important;
 
   &__item {
     display: grid !important;
-    grid-template-columns: 50% auto;
-    grid-template-rows: 100%;
-    border-radius: 0.3125rem;
-    overflow: hidden;
-    background-color: $white;
-    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
-    transition: all 150ms ease-in-out;
-    padding: 5px;
-    border: $forestGreen 1px solid;
+    grid-template-columns: 50% auto !important;
+    grid-template-rows: 100% !important;
+    border-radius: 0.3125rem !important;
+    overflow: hidden !important;
+    background-color: $white !important;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15) !important;
+    transition: all 150ms ease-in-out !important;
+    padding: 5px !important;
+    border: $forestGreen 1px solid !important;
 
     &:hover {
-      transform: scale(1.05);
+      transform: scale(1.05) !important;
     }
   }
 
   &__image {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 1;
-    grid-row-end: 2;
-    align-self: center;
-    height: 100%;
-    background-size: contain ;
-    background-repeat: no-repeat;
-    background-position: center center;
+    grid-column-start: 1 !important;
+    grid-column-end: 2 !important;
+    grid-row-start: 1 !important;
+    grid-row-end: 2 !important;
+    align-self: center !important;
+    height: 100% !important;
+    background-size: contain !important;
+    background-repeat: no-repeat !important;
+    background-position: center center !important;
 
     @media screen and (max-width: 600px) {
       height: 25%;
