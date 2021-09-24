@@ -1,11 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap');
 html {
   font-size: 100%;
   box-sizing: border-box;
   scroll-behavior: smooth;
 }
 
-*, *::before, *::after {
+*,
+*::before,
+*::after {
   box-sizing: inherit;
+}
+
+
+#map {
+  background-size: contain;
+  width: auto;
+  height: 300px;
+  background-repeat: no-repeat;
+  background-image: url('../../images/mapofevents.png');
+}
+
+#map_border {
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  h4 {
+    color: $white;
+    font-family: 'Julius Sans One',
+      sans-serif;
+  }
 }
 
 body {
@@ -19,7 +42,7 @@ body {
   overflow-x: hidden;
   background-color: rgb(0, 70, 0);
 
-  @include breakpoint-up(large){
+  @include breakpoint-up(large) {
     font-size: $font-med;
   }
 
@@ -29,7 +52,9 @@ body {
 }
 
 // Text
-h1, h2, h3 {
+h1,
+h2,
+h3 {
   font-weight: 300;
   line-height: 1.15;
   color: $forestGreen;
@@ -40,7 +65,7 @@ h1 {
   font-size: 2.31rem;
   margin-bottom: 1.5rem;
 
-  @include breakpoint-up(large){
+  @include breakpoint-up(large) {
     font-size: $font-xlg;
   }
 }
@@ -49,10 +74,10 @@ h2 {
   font-size: 1.875rem;
   margin-bottom: 1.5625rem;
 
-  @include breakpoint-up(large){
+  @include breakpoint-up(large) {
     font-size: 2.25rem;
     margin-bottom: 2.25rem;
-  }  
+  }
 }
 
 p {
@@ -60,7 +85,9 @@ p {
   margin-bottom: 2.25rem;
 }
 
-a, a:visited, a:hover {
+a,
+a:visited,
+a:hover {
   text-decoration: none;
 }
 
@@ -75,41 +102,47 @@ a, a:visited, a:hover {
     padding-bottom: 4.375rem;
     padding-left: 1.5rem;
 
-    @include breakpoint-up(large){
+    @include breakpoint-up(large) {
       padding-top: 6rem;
       padding-bottom: 6rem;
     }
   }
+
   &--py {
     padding-top: 4.375rem;
     padding-bottom: 4.375rem;
-    
-    @include breakpoint-up(large){
+
+    @include breakpoint-up(large) {
       padding-top: 6rem;
       padding-bottom: 6rem;
     }
   }
+
   &--px {
     padding-right: 1.5rem;
     padding-left: 1.5rem;
   }
+
   &--pt {
     padding-top: 4.375rem;
-    
-    @include breakpoint-up(large){
+
+    @include breakpoint-up(large) {
       padding-top: 6rem;
     }
   }
+
   &--pr {
     padding-right: 1.5rem;
   }
+
   &--pb {
     padding-bottom: 4.375rem;
-    
-    @include breakpoint-up(large){
+
+    @include breakpoint-up(large) {
       padding-bottom: 6rem;
     }
   }
+
   &--pl {
     padding-left: 1.5rem;
   }
@@ -122,18 +155,19 @@ a, a:visited, a:hover {
   &-jc-sb {
     justify-content: space-between;
   }
-  
+
   &-jc-c {
     justify-content: center;
   }
-  
+
   &-ai-c {
     align-items: center;
   }
 }
 
 // Buttons
-button, .button {
+button,
+.button {
   position: relative;
   display: inline-block;
   padding: 0.875rem 2.1875rem;
@@ -142,8 +176,8 @@ button, .button {
   border-radius: 50px;
   cursor: pointer;
   color: $white;
-  font-weight: 400;  
-  font-size: $font-sm;  
+  font-weight: 400;
+  font-size: $font-sm;
   transition: opacity 300ms ease-in-out;
   overflow: hidden;
 
@@ -167,14 +201,13 @@ button, .button {
 
 // Visibility
 .hide-for-mobile {
-  @include breakpoint-down(medium){
+  @include breakpoint-down(medium) {
     display: none;
   }
 }
 
 .hide-for-desktop {
-  @include breakpoint-up(large){
+  @include breakpoint-up(large) {
     display: none;
   }
 }
-
