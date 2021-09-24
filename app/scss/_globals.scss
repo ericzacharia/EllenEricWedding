@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap');
 
 html {
   font-size: 100%;
@@ -37,18 +36,6 @@ body {
   }
 }
 
-article {
-  text-align: center;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  padding-bottom: 20px;
-
-  h4 {
-    color: $white;
-    font-family: 'Julius Sans One',
-      sans-serif;
-  }
-}
 // Text
 h1,
 h2,

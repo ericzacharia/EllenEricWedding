@@ -79,18 +79,6 @@ body.noscroll {
   overflow: hidden;
 }
 
-article {
-  text-align: center;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  padding-bottom: 20px;
-}
-
-article h4 {
-  color: white;
-  font-family: 'Julius Sans One', sans-serif;
-}
-
 h1,
 h2,
 h3 {
@@ -1095,5 +1083,17 @@ h1 {
 
 .vendor__description {
   font-size: 1rem;
+}
+
+article {
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 20px;
+}
+
+article h4 {
+  color: white;
+  font-family: 'Julius Sans One', sans-serif;
 }
 /*# sourceMappingURL=style.css.map */
