@@ -909,7 +909,7 @@ button:hover::before,
 }
 
 .registry__item {
-  display: grid;
+  display: grid !important;
   grid-template-columns: 50% auto;
   grid-template-rows: 100%;
   border-radius: 0.3125rem;
