@@ -13,18 +13,7 @@ html {
 }
 
 
-article {
-  text-align: center;
-  margin-left: 50%;
-  transform: translateX(-50%);
-padding-bottom: 20px;
 
-  h4 {
-    color: $white;
-    font-family: 'Julius Sans One',
-      sans-serif;
-  }
-}
 
 
 
@@ -48,6 +37,18 @@ body {
   }
 }
 
+article {
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 20px;
+
+  h4 {
+    color: $white;
+    font-family: 'Julius Sans One',
+      sans-serif;
+  }
+}
 // Text
 h1,
 h2,
