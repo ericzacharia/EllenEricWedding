@@ -278,12 +278,7 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-}
-
-@media screen and (max-width: 600px) {
-  .vendor__image {
-    height: 25%;
-  }
+  border-radius: 10px;
 }
 
 .vendor__text {
@@ -297,12 +292,6 @@ h1 {
   }
 }
 
-.vendor__date {
-  font-size: 1.1rem;
-  color: #1a6b0a;
-  margin-bottom: 0.75rem;
-}
-
 .vendor__title {
   font-size: 1.4rem;
   line-height: 1.2;
@@ -310,8 +299,20 @@ h1 {
   margin-bottom: 0.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .vendor__title {
+    font-size: 1.0rem;
+  }
+}
+
 .vendor__description {
   font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .vendor__description {
+    font-size: 0.7rem;
+  }
 }
 
 html {
