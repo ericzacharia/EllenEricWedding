@@ -1085,14 +1085,14 @@ h1 {
   font-size: 1rem;
 }
 
-article {
+article, #map_border {
   text-align: center;
   margin-left: 50%;
   transform: translateX(-50%);
   padding-bottom: 20px;
 }
 
-article h4 {
+article h4, #map_border h4 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
 }
