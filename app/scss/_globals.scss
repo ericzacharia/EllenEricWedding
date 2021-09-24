@@ -12,7 +12,7 @@ html {
 }
 
 
-#map {
+.map, #map {
   background-size: contain;
   width: auto;
   height: 300px;
@@ -20,7 +20,7 @@ html {
   background-image: url('../../images/mapofevents.png');
 }
 
-#map_border {
+.map_border, #map_border {
   text-align: center;
   margin-left: 50%;
   transform: translateX(-50%);

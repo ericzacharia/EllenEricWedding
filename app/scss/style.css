@@ -57,7 +57,7 @@ html {
   box-sizing: inherit;
 }
 
-#map {
+.map, #map {
   background-size: contain;
   width: auto;
   height: 300px;
@@ -65,13 +65,13 @@ html {
   background-image: url("../../images/mapofevents.png");
 }
 
-#map_border {
+.map_border, #map_border {
   text-align: center;
   margin-left: 50%;
   transform: translateX(-50%);
 }
 
-#map_border h4 {
+.map_border h4, #map_border h4 {
   color: white;
   font-family: 'Julius Sans One', sans-serif;
 }
