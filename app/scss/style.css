@@ -908,12 +908,6 @@ button:hover::before,
   color: #1a6b0a;
 }
 
-.registry__grid {
-  display: grid;
-  grid-template-rows: 1fr;
-  gap: 1.875rem;
-}
-
 .registry__item {
   display: grid;
   grid-template-columns: 50% auto;
@@ -958,12 +952,6 @@ button:hover::before,
   .registry__text {
     padding: 1.875rem 1.5625rem;
   }
-}
-
-.registry__date {
-  font-size: 1.1rem;
-  color: #1a6b0a;
-  margin-bottom: 0.75rem;
 }
 
 .registry__title {
