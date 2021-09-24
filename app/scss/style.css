@@ -902,36 +902,6 @@ button:hover::before,
   margin-right: 30px;
 }
 
-.overlay {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 30px;
-  bottom: 0;
-  background: rgba(255, 0, 0, 0.7);
-  /* use this so that the image doesn't go opaque too */
-}
-
-.overlay > img {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  /* center the image in the overlay */
-}
-
-.close {
-  border-radius: 5px;
-  color: #ffffff;
-  background-color: #000000;
-  display: inline-block;
-  padding: 5px 10px;
-  position: absolute;
-  bottom: 10px;
-  right: 10px;
-  cursor: pointer;
-}
-
 .schedules {
   background-color: #fff5f5;
 }
@@ -975,11 +945,14 @@ button:hover::before,
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
+  margin-left: 10px;
+  border: black solid 1px;
+  border-radius: 10px;
 }
 
 @media screen and (max-width: 600px) {
   .schedule__image {
-    height: 25%;
+    height: 50%;
   }
 }
 
@@ -994,12 +967,6 @@ button:hover::before,
   }
 }
 
-.schedule__date {
-  font-size: 1.1rem;
-  color: #1a6b0a;
-  margin-bottom: 0.75rem;
-}
-
 .schedule__title {
   font-size: 1.4rem;
   line-height: 1.2;
@@ -1007,8 +974,20 @@ button:hover::before,
   margin-bottom: 0.5rem;
 }
 
+@media screen and (max-width: 600px) {
+  .schedule__title {
+    font-size: 1.0rem;
+  }
+}
+
 .schedule__description {
   font-size: 1rem;
+}
+
+@media screen and (max-width: 600px) {
+  .schedule__description {
+    font-size: 0.7rem;
+  }
 }
 
 .footer {

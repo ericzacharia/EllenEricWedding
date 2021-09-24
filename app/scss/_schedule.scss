@@ -43,9 +43,11 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-
+    margin-left: 10px;
+    border: black solid 1px;
+    border-radius: 10px;    
     @media screen and (max-width: 600px) {
-      height: 25%;
+      height: 50%;
     }
   }
 
@@ -58,21 +60,20 @@
     }
   }
 
-  &__date {
-    font-size: 1.1rem;
-    color: $forestGreen;
-    margin-bottom: 0.75rem;
-
-  }
-
   &__title {
     font-size: 1.4rem;
     line-height: 1.2;
     color: $forestGreen;
     margin-bottom: 0.5rem;
+    @media screen and (max-width: 600px) {
+      font-size: 1.0rem;
+    }
   }
 
   &__description {
     font-size: 1rem;
+    @media screen and (max-width: 600px) {
+      font-size: 0.7rem;
+    }
   }
 }
