@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap');
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -12,24 +13,20 @@ html {
 }
 
 
-.map, #map {
-  background-size: contain !important;
-  width: auto !important;
-  height: 300px !important;
-  background-repeat: no-repeat !important;
-  background-image: url('../../images/mapofevents.png') !important;
-}
+article {
+  text-align: center;
+  margin-left: 50%;
+  transform: translateX(-50%);
+padding-bottom: 20px;
 
-.map_border, #map_border {
-  text-align: center !important;
-  margin-left: 50% !important;
-  transform: translateX(-50%) !important;
   h4 {
-    color: $white !important; 
+    color: $white;
     font-family: 'Julius Sans One',
-      sans-serif !important;
+      sans-serif;
   }
 }
+
+
 
 body {
   margin: 0;
