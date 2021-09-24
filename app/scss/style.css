@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Parisienne&family=Julius+Sans+One&family=Tangerine:wght@700&display=swap");
 .has-fade {
   visibility: hidden;
 }
@@ -313,18 +312,6 @@ h1 {
 
 .vendor__description {
   font-size: 1rem;
-}
-
-#map_border {
-  text-align: center;
-  margin-left: 50%;
-  transform: translateX(-50%);
-  padding-bottom: 20px;
-}
-
-#map_border h4 {
-  color: white;
-  font-family: 'Julius Sans One', sans-serif;
 }
 
 html {
