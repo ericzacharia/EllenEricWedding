@@ -1,67 +1,73 @@
+
+
 .registry {
   background-color: $sageGreen;
-  text-align: center;
+  text-align: left;
   color: $forestGreen;
 
-  @include breakpoint-up(medium){
-    text-align: left;
-  }
-
-  &__intro {
-    margin-bottom: 3.75rem;
-
-    @include breakpoint-up(large){
-      width: 60%;
-    }
-
-    h2 {
-    color: $forestGreen;
-    }
-  }
-
   &__grid {
-
-    @include breakpoint-up(medium){
-      display: flex;
-      flex-wrap: wrap;     
-    }
+    display: grid;
+    grid-template-rows: 1fr;
+    gap: 1.875rem;
   }
 
   &__item {
-    padding: 0.9375rem;
+    display: grid;
+    grid-template-columns: 50% auto;
+    grid-template-rows: 100%;
+    border-radius: 0.3125rem;
+    overflow: hidden;
+    background-color: $white;
+    box-shadow: 0px 3px 12px rgba(0, 0, 0, 0.15);
+    transition: all 150ms ease-in-out;
+    padding: 5px;
+    border: $forestGreen 1px solid;
 
-    @include breakpoint-up(medium){
-      flex: 0 0 50%;
-    }
-
-    @include breakpoint-up(large){
-      flex: 1;
+    &:hover {
+      transform: scale(1.05);
     }
   }
 
-  &__icon {
-    margin-bottom: 1.875rem;
+  &__image {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    align-self: center;
+    height: 100%;
+    background-size: contain ;
+    background-repeat: no-repeat;
+    background-position: center center;
 
-    @include breakpoint-up(large){
-      margin-bottom: 2.75rem;
-    }    
+    @media screen and (max-width: 600px) {
+      height: 25%;
+    }
+  }
+
+  &__text {
+    padding: 1.875rem 1.875rem 2.5rem 1.875rem;
+    color: $grayishBlue;
+
+    @include breakpoint-up(medium) {
+      padding: 1.875rem 1.5625rem;
+    }
+  }
+
+  &__date {
+    font-size: 1.1rem;
+    color: $forestGreen;
+    margin-bottom: 0.75rem;
+
   }
 
   &__title {
-    font-size: 1.25rem;
-    font-weight: 300;
-    line-height: 1.15;
+    font-size: 1.4rem;
+    line-height: 1.2;
     color: $forestGreen;
-    margin-bottom: 1rem;
-
-    @include breakpoint-up(large){
-      font-size: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
+    margin-bottom: 0.5rem;
   }
 
   &__description {
-    font-size: 0.875rem;
-    line-height: 1.5;
+    font-size: 1rem;
   }
 }

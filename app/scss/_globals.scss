@@ -77,24 +77,24 @@ a:hover {
   margin: 0 auto;
 
   &--pall {
-    padding-top: 4.375rem;
+    padding-top: 1.375rem;
     padding-right: 1.5rem;
-    padding-bottom: 4.375rem;
+    padding-bottom: 1.375rem;
     padding-left: 1.5rem;
 
     @include breakpoint-up(large) {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
   }
 
   &--py {
-    padding-top: 4.375rem;
-    padding-bottom: 4.375rem;
+    padding-top: 1.375rem;
+    padding-bottom: 1.375rem;
 
     @include breakpoint-up(large) {
-      padding-top: 6rem;
-      padding-bottom: 6rem;
+      padding-top: 3rem;
+      padding-bottom: 3rem;
     }
   }
 
@@ -104,10 +104,10 @@ a:hover {
   }
 
   &--pt {
-    padding-top: 4.375rem;
+    padding-top: 1.375rem;
 
     @include breakpoint-up(large) {
-      padding-top: 6rem;
+      padding-top: 3rem;
     }
   }
 
@@ -116,10 +116,10 @@ a:hover {
   }
 
   &--pb {
-    padding-bottom: 4.375rem;
+    padding-bottom: 1.375rem;
 
     @include breakpoint-up(large) {
-      padding-bottom: 6rem;
+      padding-bottom: 3rem;
     }
   }
 
