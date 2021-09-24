@@ -58,22 +58,22 @@ html {
 }
 
 .map, #map {
-  background-size: contain;
-  width: auto;
-  height: 300px;
-  background-repeat: no-repeat;
-  background-image: url("../../images/mapofevents.png");
+  background-size: contain !important;
+  width: auto !important;
+  height: 300px !important;
+  background-repeat: no-repeat !important;
+  background-image: url("../../images/mapofevents.png") !important;
 }
 
 .map_border, #map_border {
-  text-align: center;
-  margin-left: 50%;
-  transform: translateX(-50%);
+  text-align: center !important;
+  margin-left: 50% !important;
+  transform: translateX(-50%) !important;
 }
 
 .map_border h4, #map_border h4 {
-  color: white;
-  font-family: 'Julius Sans One', sans-serif;
+  color: white !important;
+  font-family: 'Julius Sans One', sans-serif !important;
 }
 
 body {
