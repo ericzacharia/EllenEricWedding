@@ -380,6 +380,18 @@ h1 {
   }
 }
 
+.schedule__date {
+  font-size: 1.1rem;
+  color: #1a6b0a;
+  margin-bottom: 0.75rem;
+}
+
+@media screen and (max-width: 600px) {
+  .schedule__date {
+    font-size: 0.8rem;
+  }
+}
+
 .schedule__title {
   font-size: 1.4rem;
   line-height: 1.2;
@@ -648,7 +660,7 @@ button:hover::before,
 }
 
 .header nav .header__links a {
-  padding: 0 5% 0 0;
+  padding: 0 4% 0 0;
   font-size: 100%;
 }
 
