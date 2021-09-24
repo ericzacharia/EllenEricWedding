@@ -777,7 +777,7 @@ button:hover::before, .button:hover::before {
 }
 
 .footer .container img {
-  height: 100px;
+  height: 32px;
   border: #27aa27 solid 2px;
 }
 
