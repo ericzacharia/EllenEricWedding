@@ -44,22 +44,15 @@
   animation: fade-out 200ms ease-in-out forwards;
 }
 
-.story {
+#story {
   margin: 20px 20px 20px 20px !important;
   padding: 30px !important;
   border: #a8c680 solid 3px !important;
-  background-color: #b0dabb !important;
-}
-
-.story h1 {
+  background-color: #c4e1cc !important;
   color: #185215 !important;
 }
 
-.story p {
-  color: #185215 !important;
-}
-
-.story p.indent {
+#story p.indent {
   text-indent: 30px !important;
 }
 
