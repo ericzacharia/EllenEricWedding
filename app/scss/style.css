@@ -45,22 +45,22 @@
 }
 
 .story {
-  margin: 20px 20px 20px 20px;
-  padding: 30px;
-  border: #a8c680 solid 3px;
-  background-color: #b0dabb;
+  margin: 20px 20px 20px 20px !important;
+  padding: 30px !important;
+  border: #a8c680 solid 3px !important;
+  background-color: #b0dabb !important;
 }
 
 .story h1 {
-  color: #185215;
+  color: #185215 !important;
 }
 
 .story p {
-  color: #185215;
+  color: #185215 !important;
 }
 
 .story p.indent {
-  text-indent: 30px;
+  text-indent: 30px !important;
 }
 
 #wedding_invitation {
