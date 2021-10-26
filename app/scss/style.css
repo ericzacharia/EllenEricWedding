@@ -46,11 +46,21 @@
 
 .story {
   margin: 20px 20px 20px 20px;
+  padding: 30px;
   border: #a8c680 solid 3px;
+  background-color: #b0dabb;
 }
 
 .story h1 {
-  color: pink;
+  color: #185215;
+}
+
+.story p {
+  color: #185215;
+}
+
+.story p.indent {
+  text-indent: 30px;
 }
 
 #wedding_invitation {
