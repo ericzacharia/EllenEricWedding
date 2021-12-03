@@ -313,6 +313,11 @@ h1 {
   outline: 2px solid red !important;
 }
 
+.covid_message {
+  color: #fff;
+  padding: 20px;
+}
+
 .gallery {
   line-height: 0;
   -webkit-column-count: 5;
