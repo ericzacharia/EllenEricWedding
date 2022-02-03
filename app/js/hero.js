@@ -32,6 +32,7 @@ function slideRight() {
 
 // Left arrow click
 arrowLeft.addEventListener("click", function() {
+  console.log('slide image left');
   if (current === 0) {
     current = sliderImages.length;
   }
@@ -40,6 +41,7 @@ arrowLeft.addEventListener("click", function() {
 
 // Right arrow click
 arrowRight.addEventListener("click", function() {
+    console.log('slide image right');
   if (current === sliderImages.length - 1) {
     current = -1;
   }
