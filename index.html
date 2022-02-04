@@ -16,6 +16,11 @@
       $('#header').load('header.html');
     });
   </script>
+    <script>
+    $(function () {
+      $('#schedule').load('schedule.html');
+    });
+  </script>
   <script>
     $(function () {
       $('#footer').load('footer.html');
@@ -24,7 +29,7 @@
 </head>
 
 <body>
-  <div id="header"></div>
+  <div id="header"></div> <!--  place header here -->
 
   <div class="hero">
     <div id="arrow-left" class="arrow"></div>
@@ -155,144 +160,10 @@
     <div id="arrow-right" class="arrow"></div>
   </div>
 
-  <section class="schedules" id="schedule">
+  <div id="schedule"></div> <!--  place schedule here -->
 
-    <div class="schedule__content container container--pall">
 
-      <h2>Schedule and Locations</h2>
-
-      <div class="schedule__grid">
-
-        <a href="https://www.flywichita.com/" target="_blank" class="schedule__item">
-          <div class="schedule__image" style="background-image: url('./images/schedule/airport.jpg')"></div>
-          <div class="schedule__text">
-            <div class="schedule__title">Fly into Wichita Airport (ICT)</div>
-            <div class="schedule__description">Wichita Airport is a short 15 minute drive from downtown Wichita.
-              <br><br>
-              Need an Uber or Lyft from the airport?
-              <br>
-              Exit the airport's single terminal, cross the street and walk left until
-              you see Uber and Lyft signs. Drivers typically wait here to drive passengers. Initiate the service through
-              the app for a ride to downtown for about $15-$20.
-              <br><br>
-              <b>Wichita Dwight D. Eisenhower National Airport
-                <br> 2277 Eisenhower Airport Pkwy, Wichita, KS 67209
-                <br> (316) 946-4700 </b>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://www.hyatt.com/en-US/group-booking/WICRW/G-HEZA" target="_blank" class="schedule__item"
-          id="hotel">
-          <div class="schedule__image" style="background-image: url('./images/schedule/hyattregency.jpg')"></div>
-          <div class="schedule__text">
-            <div class="schedule__title">Book a Room at Hyatt Regency Wichita</div>
-            <div class="schedule__description">CLICK HERE to book a room! We have blocked out rooms for a reduced rate
-              at the Hyatt Regency Hotel, located 0.7 miles from the reception venue starting at $119/room. The rooms
-              are held until April 8th.
-              <br><br> The bride and groom will be staying at the Hyatt both Friday and Saturday night, and a farewell
-              brunch will be hosted at the hotel Sunday morning.
-              <br><br> <b> Hyatt Regency Wichita
-                <br> 400 W Waterman St, Wichita, KS 67202
-                <br> (316) 946-4700 </b>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://georgesfrenchbistro.com/" target="_blank" class="schedule__item">
-          <div class="schedule__image" style="background-image: url('./images/schedule/georgesbistro.jpg')"></div>
-          <div class="schedule__text">
-            <div class="schedule__title">Rehearsal Dinner at George's French Bistro</div>
-            <div class="schedule__date">Friday, 5:00 &#8594; 9:00 pm</div>
-            <div class="schedule__description">A rehearsal dinner for the wedding party and families of Eric and Ellen
-              will be held at George's French
-              Bistro. A shuttle may be available, pending availability, from the Hyatt Regency Hotel.
-              <br><br> <b> George's French Bistro
-                <br> 4618 E Central Ave #50, Wichita, KS 67208
-                <br> 316-226-8862 </b>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://blessedsacramentwichita.com/" target="_blank" class="schedule__item">
-          <div class="schedule__image" style="background-image: url('./images/schedule/church.jpg')"></div>
-          <div class="schedule__text">
-            <div class="schedule__title">Ceremony at Blessed Sacrament</div>
-            <div class="schedule__date">Saturday, 1:30 pm &#8594; 2:30 pm</div>
-            <div class="schedule__description">
-              <p>
-                The Ceremony will be held at Blessed Sacrement Church. Wichita provides a free bus called "The Q" that
-                travels between this church and downtown.
-                The bus stop is located in front of the church.
-                <br><br> <b>Blessed Sacrament Church
-                  <br>124 N Roosevelt St, Wichita, KS 67208 <br> (316) 682-4557
-                </b></p>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://www.wichitatransit.org/QLine/Pages/default.aspx" target="_blank" class="schedule__item">
-          <div class="schedule__image" style="background-image: url('./images/schedule/TheQ.jpg')"></div>
-          <div class="schedule__text">
-            <div class="schedule__title">The Q-line Bus for Transportation</div>
-            <div class="schedule__description">
-              Busses run approximately every 15 minutes, and cover a short circut of 3.3 miles. <br> Click here for
-              more details about how to use the Q-Line bus.
-            </div>
-          </div>
-        </a>
-
-        <a href="https://www.thehudsonict.com/" target="_blank" class="schedule__item">
-          <div class="schedule__image" style="background-image: url('./images/schedule/hudson.jpg')"></div>
-          <div class="schedule__text">
-            <div class="schedule__title">Reception at The Hudson</div>
-            <div class="schedule__date">Saturday, 5:00 pm &#8594; 10:30 pm</div>
-            <div class="schedule__description">The reception will be held at The Hudson in downtown Wichita. The Hudson
-              is a walk away from
-              the Hyatt Regency Hotel, as well as a multitude of brewery, bar, and nightclub options - however you
-              choose to enjoy the remainder of your night.
-              <b> <br><br>The Hudson
-                <br> 508 S Commerce, Wichita, KS 67202
-                <br> (316) 600-7930</b>
-            </div>
-          </div>
-        </a>
-        <a href="https://www.visitwichita.com/things-to-do/nightlife/?view=grid&sort=qualityScore&filter_regions%5B0%5D=5"
-          target="_blank" class="schedule__item">
-          <div class="schedule__image" style="background-image: url('./images/schedule/downtown.jpg')"></div>
-          <div class="schedule__text">
-            <div class="schedule__title">Nightlife in Downtown Wichita</div>
-            <div class="schedule__date">Saturday, 10:30 pm+</div>
-            <div class="schedule__description">Ask the bride and groom for suggestions, or CLICK HERE to be redirected
-              to Wichita's nightlife website.
-              <br> <br>All guests are also welcome to hang out at the lobby bar at the Hyatt Regency!
-              <b> <br><br>Downtown Wichita
-                <br>505 E Douglas Ave, Wichita, KS 67202
-                <br> (316) 264-6005</b>
-            </div>
-          </div>
-        </a>
-
-        <a href="https://www.hyatt.com/en-US/hotel/kansas/hyatt-regency-wichita/wicrw/dining" target="_blank"
-          class="schedule__item">
-          <div class="schedule__image" style="background-image: url('/images/schedule/eggs.jpg')"></div>
-          <div class="schedule__text">
-            <div class="schedule__title">Farewell Brunch at Hyatt Regency Wichita</div>
-            <div class="schedule__date">Sunday, 10:30 am &#8594; 12:00 pm</div>
-            <div class="schedule__description">
-              Join the bride and groom for a farewell brunch Sunday morning at Hyatt Regency Wichita!
-              <br><br>
-              <b> Hyatt Regency Wichita
-                <br> 400 W Waterman St, Wichita, KS 67202
-                <br> (316) 946-4700 </b></div>
-          </div>
-        </a>
-
-      </div>
-    </div>
-  </section>
-
-  <div id="footer"></div>
+  <div id="footer"></div> <!--  place footer here -->
 
 
   <script src="/app/js/countdown.js"></script>
