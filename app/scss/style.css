@@ -738,8 +738,8 @@ button:hover::before,
 }
 
 .header nav {
-  padding-top: 1.0625rem;
-  padding-bottom: 1.0625rem;
+  padding-top: 1.2625rem;
+  padding-bottom: 1.2625rem;
   color: white;
   left: 50%;
 }
@@ -749,7 +749,7 @@ button:hover::before,
 }
 
 .header nav .header__links a {
-  padding: 0 4% 0 0;
+  padding: 0% 5% 0% 0%;
   font-size: 100%;
 }
 

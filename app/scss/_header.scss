@@ -37,20 +37,23 @@
   }
 
   nav {
-    padding-top: 1.0625rem;
-    padding-bottom: 1.0625rem;
+    padding-top: 1.2625rem;
+    padding-bottom: 1.2625rem;
     color: $white;
     left: 50%;
 
-      .header__links {
-          width: 100%;
 
-        a {
-          padding: 0 4% 0 0;
-          // margin: 0;
-          font-size: 100%;
-        }
+    .header__links {
+      width: 100%;
+      // display: grid;
+      // grid-template-columns: repeat(4, 1fr) 2.5fr;
+      // gap: 10px;
+
+      a {
+        padding: 0% 5% 0% 0%;
+        font-size: 100%;
       }
+    }
   }
 
   &__logo {
