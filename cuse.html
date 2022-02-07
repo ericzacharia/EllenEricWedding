@@ -22,16 +22,22 @@
     });
   </script>
   <script language="JavaScript">
-    <!--hide
+    
     var password;
     var pass1 = "cuse";
+    var pass1b = "Cuse";
+    var pass2 = "sft";
+    var pass2b = "SFT";
     password = prompt('Enter Password', '');
-    if (password == pass1)
+    if (password == pass1 || password == pass1b)
       alert('Correct password, click OK to enter.');
-    else {
+    else if (password == pass2 || password == pass2b) {
+      alert('Correct password, click OK to enter.');
+      window.location = 'https://ellenericwedding.com/bachelor.html'
+    } else {
       alert('Incorrect password.');
       window.location = 'https://ellenericwedding.com/'
-    } //-->
+    } 
   </script>
 </head>
 
