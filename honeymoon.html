@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:wght@300;400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./app/scss/style.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="images/icons/favicon-32x32.png">
+  <title>Honeymoon</title>
+  <script type="text/javascript" src="jquery-3.3.1.js"></script>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="header"></div>
+
+
+  <section class="schedules" id="schedule">
+
+    <div class="schedule__content container container--pall">
+
+      <h2>Honeymoon Schedule</h2>
+
+      <div class="schedule__grid">
+
+        <!-- <h2>The Heist</h2> -->
+<!-- 
+        <a href="https://docs.google.com/spreadsheets/d/1hLGOjPyc5bqM6KQc9vvcxo4uQ2hlCir-aI128bjEido/edit#gid=0"
+          target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/budget.png')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">Budget and Packing List</div>
+            <div class="schedule__description">Mo' money mo' problems. <br><br>
+              Click for link to Google Spreadsheet regarding a budget and a packing list for who is bringing what for
+              entertainment i.e. games like dice, secret hitler, etc. so we don't have people double up for whatever
+              reason and occupy unnecessary luggage space.
+            </div>
+          </div>
+        </a>
+
+        <a href="https://goo.gl/maps/XxNBajUmBpAhL5eD7" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/airport.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">Fly into Chicago O'Hare International Airport (ORD)</div>
+            <div class="schedule__date">Thursday, February 17, 2022</div>
+            <div class="schedule__description">
+              <b>Chicago O'Hare International Airport
+                <br> 10000 W O'Hare Ave, Chicago, IL 60666
+                <br> (800) 832-6352 </b>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://goo.gl/maps/gKuFyn4Nmx6RtVbB7" target="_blank" class="schedule__item" id="hotel">
+          <div class="schedule__image" style="background-image: url('./images/cuse/airbnb.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">Airbnb</div>
+            <div class="schedule__date">4:00pm Thursday, February 17 &#8594; 11:00am Monday, February 21</div>
+            <div class="schedule__description">
+              $1823.45 total
+              $227.93 per person assuming 8 people.
+              <br><br>
+
+              "Please TEXT # found in welcome email if any issues come up during your
+              stay. If it is past 9PM, please TEXT our backup manager Cath @ 562-263-7659.
+              <br>
+              Check-in time is not until 4 pm. Check-out time is 11 AM SHARP. We do have a late check-out option (that
+              costs $40) but you are only
+              allowed to store your luggage in the Suite from 11 AM - 2 PM. Text your Primary Manager how to process the
+              late check-out."
+              <br><br>
+              https://www.airbnb.com/rooms/48826574?adults=8&children=0&infants=0&check_in=2022-02-17&check_out=2022-02-21
+
+              <br><br> <b> Dmd's Airbnb
+                <br> 811 North Sedgwick Street, Suite 2, Chicago, IL 60610
+                <br> 562-263-7659 </b>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://goo.gl/maps/3qNQWsNqAEx6qU3w5" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/rooftop.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">London House Rooftop</div>
+            <div class="schedule__date">An Unplanned Idea</div>
+
+            <div class="schedule__description">
+              Free Admission. $18 cocktails that aren't very good. Priceless view. Open weather permitting.
+              <br><br>
+              <b>London House Rooftop
+                <br> 85 E Wacker Dr 22nd Floor, Chicago, IL 60601
+                <br> (312) 357-1200 </b>
+            </div>
+          </div>
+        </a>
+
+        <a href="https://goo.gl/maps/unDNCTUWaSGpgGBy5" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/elevencity.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">Eleven City Diner</div>
+            <div class="schedule__date">10:00am, Friday, February 18</div>
+            <div class="schedule__description">
+              "Hey Eric, you know typically we don’t do call ahead seating or reservations, especially on Fridays and
+              weekends, but your message was so kind that we will actually hold a table for you. Most of the messages I
+              get on a daily basis are rather douchey, so I’d really like to help you guys out for being so nice. We
+              will hold a room for you guys in the upstairs portion of our restaurant since those tables can seat 8 of
+              you. Just do me a favor and remember to tip the server kindly and send me a text that morning before
+              coming with the number of guys in your party so I can be reminded to prepare the table for you guys. My
+              number is 312-848-5258."
+              <br>
+              - Brad Rubin
+
+              <br><br>
+              <b> 1112 S Wabash Ave, Chicago, IL 60605
+                <br> (312) 212-1112 </b>
+            </div>
+          </div>
+        </a>
+        <a href="" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/chicagosnowbean.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">Unknown Events</div>
+            <div class="schedule__date">11:30am+, Friday, February 18</div>
+            <div class="schedule__description">
+              Planned by the boys of Syracuse.
+            </div>
+          </div>
+        </a>
+        <a href="https://goo.gl/maps/yvza7jk8qCupGvRy7" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/littlegoat.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">Little Goat Diner</div>
+            <div class="schedule__date">10:00am, Saturday, February 19</div>
+            <div class="schedule__description">
+              Reserved through OpenTable via ekzacharia@gmail.com
+
+              <br><br>
+              <b> 820 W Randolph St, Chicago, IL 60607
+                <br> (312) 888-3455 </b>
+            </div>
+          </div>
+        </a>
+        <a href="https://goo.gl/maps/M42cQ1XjzCvtHPHFA" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/gameroom.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">The Game Room - Chicago Athletic Association</div>
+            <div class="schedule__date">11:30am, Saturday, February 19</div>
+            <div class="schedule__description">
+              Not reserved. Games are first come, first served. Speak to game master upon arrival to reserve games
+              (foosball, shuffleboard, bocce ball).
+              <br>
+              We will have a little competition/tournment for each game, and the champion of each game will receive a
+              prize determined by the group.
+
+              <br><br>
+              <b> 12 S Michigan Ave, Chicago, IL 60603
+                <br> (312) 792-3535 </b>
+            </div>
+          </div>
+        </a>
+        <a href="" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/chicagosnowbean.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">TBD</div>
+            <div class="schedule__date">2:30pm+, Saturday, February 19</div>
+            <div class="schedule__description">
+              Unplanned.
+            </div>
+          </div>
+        </a>
+        <a href="" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/chicagosnowbean.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">TBD</div>
+            <div class="schedule__date">Sunday, February 20</div>
+            <div class="schedule__description">
+              Unplanned.
+            </div>
+          </div>
+        </a>
+        <a href="https://goo.gl/maps/XxNBajUmBpAhL5eD7" target="_blank" class="schedule__item">
+          <div class="schedule__image" style="background-image: url('./images/cuse/airport.jpg')"></div>
+          <div class="schedule__text">
+            <div class="schedule__title">Fly out of Chicago O'Hare International Airport (ORD)</div>
+            <div class="schedule__date">Monday, February 21, 2022</div>
+            <div class="schedule__description">
+              <b>Chicago O'Hare International Airport
+                <br> 10000 W O'Hare Ave, Chicago, IL 60666
+                <br> (800) 832-6352 </b>
+            </div>
+          </div>
+        </a> -->
+
+
+
+      </div>
+    </div>
+  </section>
+  <div id="footer"></div>
+
+  <script src="/app/js/script.js"></script>
+  <script src="/app/js/countdown.js"></script>
+  <script src="/app/js/slider.js"></script>
+</body>
+
+</html>
